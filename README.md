@@ -1,8 +1,6 @@
 # Moving Platform Maker 2D
 
-A Unity editor extension to help you create 2D moving platforms without coding.
-
-The 5-star asset is now open source, and our vision is to create the best asset for creating 2D moving platforms.
+The best Unity asset to help you create 2D moving platforms without coding.
 
 ## Development version
 
