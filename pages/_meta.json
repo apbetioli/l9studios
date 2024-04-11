@@ -17,5 +17,11 @@
     "type": "page",
     "href": "https://assetstore.unity.com/packages/tools/level-design/moving-platform-maker-2d-71886?utm_source=docs-header",
     "newWindow": true
+  },
+  "contact_link": {
+    "title": "Contact",
+    "type": "page",
+    "href": "mailto:contact@l9studios.com",
+    "newWindow": true
   }
 }
