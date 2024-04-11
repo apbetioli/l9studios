@@ -1,0 +1,15 @@
+{
+  "index": {
+    "type": "page",
+    "title": "MPM2D",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "docs": {
+    "type": "page",
+    "title": "Documentation",
+    "display": "hidden"
+  }
+}
