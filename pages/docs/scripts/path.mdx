@@ -1,0 +1,108 @@
+### Path (Script)
+
+A track is called a Path. Here is how you can create a Path:
+
+![Create a Path](../Images/Y-create-a-path.gif)
+
+A Path consists of:
+
+#### Edit button (deprecated):
+
+The edit button enables the Path editor, where you can add, remove, and move points of the Path.
+
+In the current development version (2.x) this button is not present. By selecting the GameObject it will automatically enter Edit mode.
+
+- Editing and moving points:
+
+![Editing a path](../Images/Y-editing-a-path.gif)
+
+- Adding new points:
+
+Hold **Shift** and click on the position you want to add the new point. (This option is not available when the path is Cyclic.)
+
+![Adding points to the path](../Images/Y-adding-points.gif)
+
+- Adding points in the middle:
+
+For adding points to the middle of the path, hold **Shift** and click on the circles that appear between the existent points.
+
+![Adding points to the middle of the path](../Images/Y-adding-points-middle.gif)
+
+- Removing points:
+
+Hold **Ctrl** and click on the points you want to remove.
+
+![Removing points](../Images/Y-removing-points.gif)
+
+#### Easing curve
+
+The smoothness of the movement can be adjusted by editing the easing curve of the Path. It is recommended for ping-pong movements, for open and connected Paths a straight line is a better option to avoid strange movements.
+
+Examples:
+
+- Straight line:
+
+![Easing curve as a line](../Images/Y-easing-straight.png)
+
+![Line movement](../Images/X-ping-pong.gif)
+
+- Sigmoid. Makes the movement faster in the middle and slower at the ends.
+
+![Easing curve as a sigmoid](../Images/Y-easing-sigmoid.png)
+
+![Alt text](../Images/X-ping-pong-easing.gif)
+
+#### Type
+
+There are essentially 3 types of Paths:
+
+- Ping-pong
+
+![Ping pong editor](../Images/Y-path-ping-pong.png)
+
+By default it is "closed" but it can be open at the start, the end, or both. Being open means that the platform can fall when reaching one of the boundaries.
+
+Open at the start:
+
+![Ping pong open at the start editor](../Images/Y-open-start.png)
+
+![Ping pong open at the start](../Images/Y-open-start.gif)
+
+Open at the end:
+
+![Ping pong open at the end editor](../Images/Y-open-end.png)
+
+![Ping pong open at the end](../Images/Y-open-end.gif)
+
+- Cyclic
+
+![Cyclic path editor](../Images/Y-path-cyclic.png)
+
+![Cyclic path](../Images/X-loop.gif)
+
+- Connected
+
+![Connected path editor](../Images/Y-path-connected.png)
+
+Connected path video example: https://youtu.be/KatA-7SuL_I
+
+
+#### Decorators
+
+The paths by default are not rendered in the scene view or game view, but two decorators can help with visualizing the paths. Just add the respective script to the Path game object.
+
+##### PathGizmosDecorator (Script)
+
+It shows the path in the scene view in the editor as a gizmo
+
+![PathGizmosDecorator](../Images/Y-path-gizmos-decorator.png)
+
+![PathGizmosDecorator example](../Images/Y-path-gizmos-decorator-example.png)
+
+##### PathLineDecorator (Script)
+
+It creates a line renderer to show the path in the scene and game views. (The black line in the example)
+
+![PathLineDecorator](../Images/Y-path-line-decorator.png)
+
+![PathLineDecorator example](../Images/X-ping-pong.gif)

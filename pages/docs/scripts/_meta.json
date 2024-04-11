@@ -1,0 +1,8 @@
+{
+  "path": "Path",
+  "path-follower": "PathFollower",
+  "path-follower-trigger": "PathFollowerTrigger",
+  "circular-platform": "CircularPlatform",
+  "moving-platform": "MovingPlatform",
+  "falling-platform": "FallingPlatform"
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Donut Plains 3 | Moving Platform Maker 2D</title>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WMXK48W");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="stylesheet" href="TemplateData/style.css" />
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WMXK48W"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <p class="header"><span>Moving Platform Maker 2D | </span>Donut Plains 3</p>
+    <div class="template-wrap clear">
+      <canvas
+        class="emscripten"
+        id="canvas"
+        oncontextmenu="event.preventDefault()"
+        height="600px"
+        width="960px"
+      ></canvas>
+      <br />
+      <div class="logo"></div>
+      <div class="fullscreen">
+        <img
+          src="TemplateData/fullscreen.png"
+          width="38"
+          height="38"
+          alt="Fullscreen"
+          title="Fullscreen"
+          onclick="SetFullscreen(1);"
+        />
+      </div>
+      <div class="title">Donut Plains 3</div>
+    </div>
+    <p class="footer">
+      &laquo; created with
+      <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;
+    </p>
+    <script type="text/javascript">
+      var Module = {
+        TOTAL_MEMORY: 268435456,
+        errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        dataUrl: "Release/Donut Plains.data",
+        codeUrl: "Release/Donut Plains.js",
+        memUrl: "Release/Donut Plains.mem",
+      };
+    </script>
+    <script src="Release/UnityLoader.js"></script>
+
+  </body>
+</html>
