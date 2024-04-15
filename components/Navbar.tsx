@@ -61,7 +61,7 @@ function Links(props: { className: string }) {
     <div {...props}>
       <Link
         className="font-semibold hover:underline transition-colors hover:text-gray-500 dark:hover:text-gray-400"
-        href="#"
+        href="https://assetstore.unity.com/packages/tools/level-design/moving-platform-maker-2d-71886?utm-source=lp"
       >
         Asset Store
       </Link>
