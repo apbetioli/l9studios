@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center max-w-screen-lg m-auto gap-20">
+      <div className="flex flex-col items-center max-w-screen-lg m-auto gap-20 p-4">
         <Hero />
         <Video />
         <Objection />

@@ -7,7 +7,7 @@ export default function Navbar() {
     <div>
       <nav className="fixed flex h-16 w-full items-center border-b border-gray-200 shrink-0 px-4 md:px-6 backdrop-blur-md z-10">
         <Logo />
-        <Links className="shrink-0 items-center gap-4 hidden md:flex" />
+        <Links className="shrink-0 items-center gap-8 hidden md:flex" />
 
         <Sheet>
           <SheetTrigger asChild>
@@ -18,7 +18,8 @@ export default function Navbar() {
           </SheetTrigger>
           <SheetContent side="right">
             <Logo />
-            <Links className="grid gap-4 py-8" />
+            <hr className="mt-6" />
+            <Links className="grid gap-8 py-8" />
           </SheetContent>
         </Sheet>
       </nav>

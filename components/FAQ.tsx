@@ -17,8 +17,8 @@ export default function FAQ() {
     },
   ]
   return (
-    <div className="w-full p-8">
-      <h2 className="text-3xl font-semibold underline">FAQs</h2>
+    <div className="w-full">
+      <h2 className="text-3xl font-semibold">FAQs</h2>
       <Accordion type="single" collapsible>
         {faqs.map((faq, index) => (
           <AccordionItem key={faq.title} value={`item-${index}`}>

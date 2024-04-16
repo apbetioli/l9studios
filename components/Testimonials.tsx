@@ -11,7 +11,7 @@ import {
 export function Testimonials() {
   return (
     <div className="w-full">
-      <h2 className="text-3xl font-semibold p-6 underline">REVIEWS</h2>
+      <h2 className="text-3xl font-semibold mb-10">REVIEWS</h2>
       <div className="flex flex-col lg:grid grid-cols-3 gap-4">
         {testimonials.map((testimonial) => (
           <Card key={testimonial.name}>

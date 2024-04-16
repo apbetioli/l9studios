@@ -5,7 +5,7 @@ import Video from './Video'
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center bg-white dark:bg-black pt-10 gap-10">
+    <div className="flex flex-col items-center justify-center pt-10 gap-10">
       <h1 className="text-neutral-600 dark:text-neutral-200 text-4xl md:text-8xl font-bold text-center">
         Easily create 2D moving platforms
       </h1>
