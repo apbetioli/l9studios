@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import MagicButton from './ui/magic-button'
-import Video from './Video'
 
 export default function Hero() {
   return (
@@ -13,6 +12,8 @@ export default function Hero() {
       <Link href="https://assetstore.unity.com/packages/tools/level-design/moving-platform-maker-2d-71886?utm-source=lp">
         <MagicButton>Get started with MPM2D</MagicButton>
       </Link>
+
+      <p>⭐⭐⭐⭐⭐ 200+ happy users in Unity Asset Store!</p>
     </div>
   )
 }

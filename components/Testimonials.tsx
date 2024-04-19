@@ -32,7 +32,7 @@ export function Testimonials() {
 const testimonials = [
   {
     quote: `This asset pack is extremely versatile and can be used to accomplish a lot of things for making moving platforms. The creators even added functionality when I reached out to them about accomplishing something the original asset pack wasn't equipped to do. A+ experience, across the board. Both the individual asset pack and the creators are highly recommended.`,
-    name: 'redmeansgo82 ⭐⭐⭐⭐⭐',
+    name: 'redmeansgo82',
     title: 'Wonderful Unity contributors',
   },
   {
@@ -57,12 +57,12 @@ const testimonials = [
               If you're looking around the asset store for a moving platforms
               solution, THIS IS THE SOLUTION.
       `,
-    name: 'pudd1nG ⭐⭐⭐⭐⭐',
+    name: 'pudd1nG',
     title: 'Extremely simple to implement, with all you could think you need.',
   },
   {
     quote: '很棒的插件，为我节省了不少的时间。非常感谢作者，我的游戏上架了！',
-    name: 'hippobob ⭐⭐⭐⭐⭐',
+    name: 'hippobob',
     title: '完美的资源！',
   },
 ]
